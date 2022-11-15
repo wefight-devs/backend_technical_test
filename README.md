@@ -48,3 +48,23 @@ Créer une route pour insérer plusieurs todos en un appel.
 Quelle(s) fonctionnalité(s) ajouteriez-vous à cette API?  
 Si vous avez le temps, codez-la. 
 
+<br/><br/>
+
+# Repo informations
+
+### **_Available Scripts_**
+
+In the project directory, you can run:
+- `npm transpile` (Will compile the typescript code in JS)
+- `npm start` (Runs the api server, you need to transpile before you start.)
+    - Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
+- `npm test` (Launches the tests)
+
+### **_Available Endpoints_**
+
+- ```GET http://localhost:8000/health``` (Will give you the status of the api.)
+- ```GET http://localhost:8000/todo``` (Will give you the list of todo in memory)
+- ```POST http://localhost:8000/todo``` (Will add a todo.)
+  - body: 
+    - ``` {"value": "Test a todo"} ```
+
